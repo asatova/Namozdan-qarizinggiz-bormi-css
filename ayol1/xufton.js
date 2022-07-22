@@ -1,0 +1,102 @@
+function funk() {
+   
+    let yil = parseInt(document.getElementById('yil').value);
+    let oqigan = parseInt(document.getElementById('oqigan').value);
+    let natija = yil + oqigan ;
+
+    if (natija >=2013) {
+        document.getElementById('natija').innerHTML = "Juda yaxshi"
+    } else if ( natija >= 2012){
+        document.getElementById('natija').innerHTML = "3 285 rakat qazo."
+    } else if ( natija >= 2011) {
+        document.getElementById('natija').innerHTML = "6 570 rakat qazo."
+    } else if ( natija >= 2010) {
+        document.getElementById('natija').innerHTML = "9 855 rakat qazo."
+    } else if ( natija >= 2009) {
+        document.getElementById('natija').innerHTML = "13 140 rakat qazo."
+    } else if ( natija >= 2008) {
+        document.getElementById('natija').innerHTML = "16 425 rakat qazo."
+    } else if ( natija >= 2007) {
+        document.getElementById('natija').innerHTML = "19 710 rakat qazo."
+    } else if ( natija >= 2006) {
+        document.getElementById('natija').innerHTML = "22 995 rakat qazo."
+    } else if ( natija >= 2005) {
+        document.getElementById('natija').innerHTML = "26 280 rakat qazo."
+    } else if ( natija >= 2004) {
+        document.getElementById('natija').innerHTML = "29 565 rakat qazo."
+    } else if ( natija >= 2003) {
+        document.getElementById('natija').innerHTML = "32 850 rakat qazo."
+    } else if ( natija >= 2002) {
+        document.getElementById('natija').innerHTML = "36 135 rakat qazo."
+    } else if ( natija >= 2001) {
+        document.getElementById('natija').innerHTML = "39 420 rakat qazo."
+    } else if ( natija >= 2000) {
+        document.getElementById('natija').innerHTML = "42 705 rakat qazo."
+    } else if ( natija >= 1999) {
+        document.getElementById('natija').innerHTML = "45 990 rakat qazo."
+    } else if ( natija >= 1998) {
+        document.getElementById('natija').innerHTML = "49 275 rakat qazo."
+    } else if ( natija >= 1997) {
+        document.getElementById('natija').innerHTML = "52 560 rakat qazo."
+    } else if ( natija >= 1996) {
+        document.getElementById('natija').innerHTML = "55 845 rakat qazo."
+    } else if ( natija >= 1995) {
+        document.getElementById('natija').innerHTML = "59 130 rakat qazo."
+    } else if ( natija >= 1994) {
+        document.getElementById('natija').innerHTML = "62 415 rakat qazo."
+    } else if ( natija >= 1993) {
+        document.getElementById('natija').innerHTML = "65 700 rakat qazo."
+    } else if ( natija >= 1992) {
+        document.getElementById('natija').innerHTML = "68 985 rakat qazo."
+    } else if ( natija >= 1991) {
+        document.getElementById('natija').innerHTML = "72 270 rakat qazo."
+    } else if ( natija >= 1990) {
+        document.getElementById('natija').innerHTML = "75 555 rakat qazo."
+     } else {
+        document.getElementById('natija').innerHTML = "Juda ko'p"
+    }
+
+    if (oqigan <= 1) {
+        document.getElementById('oqigan1').innerHTML = "3 285 rakat o'qidinggiz."
+    } else if ( oqigan <= 2){
+        document.getElementById('oqigan1').innerHTML = "6 570 rakat o'qidinggiz."
+    } else if ( oqigan <= 3) {
+        document.getElementById('oqigan1').innerHTML = "9 855 rakat o'qidinggiz."
+    } else if ( oqigan <= 4) {
+        document.getElementById('oqigan1').innerHTML = "13 140 rakat o'qidinggiz."
+    } else if ( oqigan <= 5) {
+        document.getElementById('oqigan1').innerHTML = "16 425 rakat o'qidinggiz."
+    } else if ( oqigan <= 6) {
+        document.getElementById('oqigan1').innerHTML = "19 710 rakat o'qidinggiz."
+    } else if ( oqigan <= 7) {
+        document.getElementById('oqigan1').innerHTML = "22 995 rakat o'qidinggiz."
+    } else if ( oqigan <= 8) {
+        document.getElementById('oqigan1').innerHTML = "26 280 rakat o'qidinggiz."
+    } else if ( oqigan <= 9) {
+        document.getElementById('oqigan1').innerHTML = "29 565 rakat o'qidinggiz."
+    } else if ( oqigan <= 10) {
+        document.getElementById('oqigan1').innerHTML = "32 850 rakat o'qidinggiz.."
+    } else if ( oqigan <= 11) {
+        document.getElementById('oqigan1').innerHTML = "36 135 rakat o'qidinggiz.."
+    } else if ( oqigan <= 12) {
+        document.getElementById('oqigan1').innerHTML = "39 420 rakat o'qidinggiz.."
+    } else if ( oqigan <= 13) {
+        document.getElementById('oqigan1').innerHTML = "42 705 rakat o'qidinggiz.."
+    } else if ( oqigan <= 14) {
+        document.getElementById('oqigan1').innerHTML = "45 990 rakat o'qidinggiz.."
+    } else if ( oqigan <= 15) {
+        document.getElementById('oqigan1').innerHTML = "49 275 rakat o'qidinggiz.."
+    } else if ( oqigan <= 16) {
+        document.getElementById('oqigan1').innerHTML = "52 560 rakat o'qidinggiz.."
+    } else if ( oqigan <= 17) {
+        document.getElementById('oqigan1').innerHTML = "55 845 rakat o'qidinggiz.."
+    } else if ( oqigan <= 18) {
+        document.getElementById('oqigan1').innerHTML = "59 130 rakat o'qidinggiz.."
+    } else if ( oqigan <= 19) {
+        document.getElementById('oqigan1').innerHTML = "62 415 rakat o'qidinggiz.."
+    } else if ( oqigan <= 20) {
+        document.getElementById('oqigan1').innerHTML = "65 700 rakat o'qidinggiz.."
+    } else {
+        document.getElementById('oqigan1').innerHTML = "Juda yaxshi"
+    }
+}

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.main img {
+   margin: 29px 0 0 862px;
+   max-width: 400px;
+}
+body{
+    background-color: #2797d6;
+}
+
+.sarlavha{
+    margin: -387px 0 0 185px;
+    position: relative;
+    
+}
+.sarlavha h1{
+   
+    color: #fff750;
+    font-size: 70px;
+
+}
+.erkak {
+    /* width: 400%; */
+
+    /* max-width: 280px; */
+    padding: 20px 60px;
+    border: none;
+    outline: none;
+    background-color: rgba(243, 243, 243, 0.63);
+    border-radius: 16px 0px  16px 0px;
+    color: #333;
+    font-size: 20px;
+    transition: 0.2s ease-out;
+    border-bottom: 3px solid #df8e00;
+    color: #2797d6;
+    box-shadow: 4px 5px 40px #666;
+}
+
+a {
+    text-decoration: none;
+    color: #2797d6;
+}
+
+
+
+.ayol{
+    padding: 20px 60px;
+    border: none;
+    outline: none;
+    background-color: rgba(243, 243, 243, 0.63);
+    border-radius: 16px 0px  16px 0px;
+    color: #333;
+    font-size: 20px;
+    transition: 0.2s ease-out;
+    border-bottom: 3px solid #df8e00;
+    margin: 0 0 0 146px;
+    color: #2797d6;
+    box-shadow: 4px 5px 40px #666;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    padding-right:  50%;
+    padding-top: 5%;
+  
+}
+.sarlavha h1 {
+    margin: 0 0 0 0px;
+}
+button:focus{
+background-color: rgba(255,255,255, 0.8);
+border-radius: 0px 16px  0px 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1060px) {
+    .box{
+        display: flex;
+        justify-content: center;
+        /* margin:38px 0 0 -400px; */
+    }
+    
+  }
+
+
+  @media screen and (max-width: 980px) {
+    .box{
+        display: flex;
+        justify-content: center;
+        /* margin:38px 0 0 -600px; */
+    }
+  }

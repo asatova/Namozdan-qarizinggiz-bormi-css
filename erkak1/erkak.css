@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.rasm{
+    margin:43px 0 0 968px;
+}
+body{
+  background-color: black;
+}
+.main{
+    width: 40%;
+    margin: auto;
+    margin-top: -33%;
+}
+.main h1 {
+    color: #f6d05f;
+    font-size: 70px;
+}
+.main label {
+    font-size: 30px;
+    color: #f6d05f;
+}
+.main input{
+    padding: 20px 60px;
+    border: none;
+    outline: none;
+    background-color: rgba(243, 243, 243, 0.63);
+    border-radius: 16px 0px  16px 0px;
+    color: #333;
+    font-size: 20px;
+    transition: 0.2s ease-out;
+    border-bottom: 3px solid #2797d6;
+    color: black;
+    box-shadow: 4px 5px 40px #666;
+}
+.main button{
+    padding: 20px 60px;
+    border: none;
+    outline: none;
+    background-color: rgba(243, 243, 243, 0.63);
+    border-radius: 16px 0px  16px 0px;
+    color: #333;
+    font-size: 20px;
+    transition: 0.2s ease-out;
+    border-bottom: 3px solid #df8e00;
+    color: black;
+    box-shadow: 4px 5px 40px #666;
+    text-decoration: none;
+    width: 60%;
+}
+.main p{
+    padding: 20px 60px;
+    border: none;
+    outline: none;
+    background-color: rgba(243, 243, 243, 0.63);
+    border-radius: 16px 0px  16px 0px;
+    color: #333;
+    font-size: 20px;
+    transition: 0.2s ease-out;
+    border-bottom: 3px solid #df8e00;
+    color: black;
+    box-shadow: 4px 5px 40px #666;
+    width: 60%;
+}
+a{ 
+    color: #df8e00;
+    text-decoration: none;
+
+
+}
